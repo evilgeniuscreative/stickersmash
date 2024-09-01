@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "StickerSmash",
+    "slug": "stickersmash",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -13,13 +13,15 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.maxrocketmusicorg.stickersmash"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.maxrocketmusicorg.stickersmash"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +33,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "be5d08ec-d426-4c53-836e-7d1bf017c9bc"
+      }
+    },
+    "owner": "maxrocketmusic-org",
+    "updates": {
+      "url": "https://u.expo.dev/be5d08ec-d426-4c53-836e-7d1bf017c9bc"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
